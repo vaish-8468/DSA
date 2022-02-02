@@ -32,7 +32,7 @@ for(int i=0;i<arr1.size();i++ ){
 int main(){
 
 vector<int> arr{10,5,3,2,-6,9,11};
-int S=12;
+int S=21;
 
 auto p=pairSum(arr,S);
 if(p.size()==0){
