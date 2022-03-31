@@ -7,7 +7,7 @@
 using namespace std;
 
 
-string extractStringAtkey(string str,int key){
+string extractStringAtKey(string str,int key){
 
     //string tokeniser
 
@@ -41,7 +41,7 @@ bool lexicoCompare(pair<string,string> s1,pair<string,string> s2){
     return key1<key2;
 }
 
-bool nemericCompare(pair<string,string> s1,pair<string,string> s2){
+bool numericCompare(pair<string,string> s1,pair<string,string> s2){
     string key1,key2;
     key1=s1.second;
     key2=s2.second;
@@ -72,7 +72,7 @@ int main(){
     vector<pair<string,string>> vp;
 
     for(int i=0; i<n;i++){
-        vp.push_back({v[i], extractStringatKey(v[i],key)});
+        vp.push_back({v[i], extractStringAtKey(v[i],key)});
     }
 
     //2. sorting
